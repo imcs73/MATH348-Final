@@ -4,6 +4,7 @@ format: typst
 editor: visual
 ---
 
+<<<<<<< HEAD
 ## Quarto
 
 ```{r}
@@ -16,4 +17,14 @@ top_all_writers = read_csv("https://raw.githubusercontent.com/rfordatascience/ti
 top_primary_writers = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-08-25/top_primary_writers.csv")
 top_producers = read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2026/2026-08-25/top_producers.csv")
 
+=======
+## Getting the Data
+
+```{r}
+library(tidyverse)
+
+country_lyrics <- read_csv("https://github.com/rfordatascience/tidytuesday/raw/refs/heads/main/data/2026/2026-08-25/country_lyrics.csv")
+
+view(country_lyrics)
+>>>>>>> 8b769ad67287cc5f869496f825ee194e13c46352
 ```
